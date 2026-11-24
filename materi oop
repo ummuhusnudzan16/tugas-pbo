@@ -1,1 +1,28 @@
+apa itu object-Oriented Programming object Oriented Programming (oup) adalah paradigma Programming yang mengorganisir code berdasarkan Object dan Classer
+bayangkan oop seperti cara kita berpikir dalam kehidupan nyata setrap benda memiliki karakteristik (properties) dan kemampuan (behavion)
 
+• Contoh kesederhanaan:
+-mobil memiliki karakteristik, warna, merk
+-mobil memiliki kemampuan, maju, mundur belok, Klakson
+
+dalam oop
+karakteristik
+kemampuan
+
+• Keuntungan object-oriented Programming
+-Data dan behavior terhubung dalam unti lebih muclah. dipahami dan dimain rain
+-Reusable bisa di buat multiple Intens
+-Data protatcion tidak mudah Coupre
+-scaleber untuk sistem yg kompleks
+• Real words analogics
+-Pabrik mobil
+-Class Blue Print / Cetakan mobil
+object. mobil yang di produksi blue print
+-atributes warng, mesin, Roda
+-mecbodes maju, mundur, klakson
+
+• membuat Project
+-buat porder belajar Phyton. oop
+-buat Virtual environmant dengan Perintah dongan python m new, View
+-aktifitas virtual enveronment dengan Perintah
+: (windows) venw/scrip
