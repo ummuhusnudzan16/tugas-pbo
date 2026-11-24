@@ -1,1 +1,42 @@
+class Karateka:
+    nama = ""
+    sabuk = ""
 
+    def perkenalan(self):
+        print(f"Halo, nama saya {self.nama}.")
+        print(f"Saya menggunakan sabuk {self.sabuk}.")
+
+    def menyapa(self, nama_teman):
+        print(f"{self.nama}: Halo, {nama_teman}! Kamu baru latihan karate di sini?")
+        
+# Membuat objek
+ummu = Karateka()
+tyo = Karateka()
+
+# Memberikan nilai atribut
+ummu.nama = "Ummu"
+ummu.sabuk = "Putih"
+
+tyo.nama = "Tyo"
+tyo.sabuk = "Putih"
+
+# Percakapan pertama kali bertemu
+print("=== PERTAMA KALI BERTEMU DI TEMPAT LATIHAN KARATE ===")
+
+ummu.perkenalan()
+tyo.perkenalan()
+
+print("\n=== PERCAKAPAN UMMU DAN TYO ===")
+print("Ummu: Halo, kamu anggota baru di tempat karate ini?")
+print("Tyo: Iya, aku baru pertama kali latihan di sini.")
+print("Ummu: Oh, salam kenal! Namaku Ummu.")
+print("Tyo: Salam kenal juga, Ummu. Namaku Tyo.")
+print("Ummu: Kamu sabuk hitam di tahun berapa?")
+print("Tyo: Aku sabuk hitam di 2024, kalau kamu?")
+print("Ummu: Wah sama dong aku juga di 2024.")
+print("Tyo: Kebetulan sekali, ayo kita berlatih bersama.")
+print("Ummu: Okey tyo, senang bisa berkenalan denganmu.")
+print("Tyo: Tentu, bertemu denganmu adalah sebuah anugerah, semoga kita bisa lebih dari teman ya ehh maaf.")
+print("Ummu: Hehe, gpp ko tyo.")
+print("Tyo: Ayo ummu kita berlatih .")
+print("Ummu: Ayo tyo")
