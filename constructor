@@ -1,1 +1,12 @@
+class Mahasiswa:
+    nim = 0
+    nama = ""
 
+def __init__(self, nama, nim): # Manual setup
+    self.nama = nama
+    self.nim = nim
+
+#Harus panggil setup manual
+mhs = Mahasiswa("nindi", "123456")
+print(mhs.nama)
+print(mhs.nim)
